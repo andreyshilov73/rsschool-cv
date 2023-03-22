@@ -96,6 +96,7 @@ body {
 }
 #name{
     padding: 85px 0;
+    text-align: center;
 }
 #info_right{
     padding: 0 30px;

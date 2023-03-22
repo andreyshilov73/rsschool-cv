@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Josefin Sans";
+}
+html {height: 100%;}
+body {
+    background-image: linear-gradient(rgb(0, 255, 191), rgb(6, 215, 156));
+    font-weight: bold;
+    letter-spacing: 1.2px;
+}
+.main {
+    background-color: rgb(231, 255, 247);
+    width: 800px;
+    height: auto;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+.left {
+    background-color: rgb(180, 255, 230);
+    width: 290px;
+    height: 100%;
+    float: left;
+    font-size: 16px;
+}
+.right {
+    width: 510px;
+    float: left;
+}
+#profile_img{
+    height: 160px;
+    width: 160px;
+    background-color: rgb(180, 255, 230);
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 55px;
+    border: 10px solid rgb(180, 255, 230);
+    box-shadow: 4px 4px 10px 2px rgb(132, 253, 213);
+}
+#profile_img img {
+    width: 100%;
+    border-radius: 50%;
+}
+.infobox {
+    position: relative;
+}
+.heading{
+    background-color: rgb(6, 215, 156);
+    padding: 12px 10px 10px 10px;
+   font-weight:bolder;
+    padding-left: 25px;
+}
+.contact_info{
+    font-size: 12px;
+    padding: 0 10px 20px 10px;
+}
+.contact_icon{
+    position: relative;
+    width: 25px;
+    padding-right: 10px;
+    top: 8px;
+}
+.skills .contact_info{
+    padding-top: 10px;
+}
+.skill_container{
+    width: 90%;
+    height: 5px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    margin: 0 10px;
+    bottom: 12px;
+}
+#skill_html{
+    width: 50%;
+    height: 5px;
+    background-color: rgb(7, 97, 71);
+}
+#skill_css{
+    width: 50%;
+    height: 5px;
+    background-color: rgb(7, 97, 71);
+}
+#skill_js{
+    width: 10%;
+    height: 5px;
+    background-color: rgb(7, 97, 71);
+}
+#skill_gd{
+    width: 75%;
+    height: 5px;
+    background-color: rgb(7, 97, 71);
+}
+#name{
+    padding: 85px 0;
+}
+#info_right{
+    padding: 0 30px;
+}
+.heading2{
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.heading2:not(:first-child){
+    padding-top: 20px;
+}
+#info_right p,li{
+    font-weight:400;
+    font-size: 14px;
+    line-height: 1.2em;
+}
